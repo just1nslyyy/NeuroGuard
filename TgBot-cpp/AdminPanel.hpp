@@ -1,12 +1,4 @@
 #pragma once
-// ═══════════════════════════════════════════════════════════
-//  AdminPanel.hpp — Админ-панель NeuroGuard
-//  Только для ADMIN_ID = 8362261813
-//  Подключить в main.cpp:
-//    #include "AdminPanel.hpp"
-//    AdminPanel admin(bot, API_URL);
-//    admin.registerHandlers();  // после всех bot.getEvents()
-// ═══════════════════════════════════════════════════════════
 
 #include <tgbot/tgbot.h>
 #include <cpr/cpr.h>
