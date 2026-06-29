@@ -1,0 +1,29 @@
+#pragma once
+
+#define NOMINMAX
+#define UNICODE
+#define _UNICODE
+
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <windows.h>
+#include <objidl.h>
+#include <shellapi.h>
+#include <iphlpapi.h>
+#include <netioapi.h>
+#include <tlhelp32.h>
+#include <psapi.h>
+#include <powrprof.h>
+#include <winreg.h>
+#include <WbemIdl.h>
+#include <comdef.h>
+#include <pdh.h>
+#include <algorithm>
+#include <string>
+#include <vector>
+#include <iostream>
+#include <sstream>
+#include <chrono>
+#include <thread>
+#include <mutex>
+#include <fstream>
